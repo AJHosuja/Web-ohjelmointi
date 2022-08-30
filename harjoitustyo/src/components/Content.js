@@ -67,7 +67,8 @@ const Content = () => {
             const paramsToUrl = "&diet=" + urlParams.Diet.toLowerCase();
             default_URL = default_URL + paramsToUrl
         }
-
+ 
+        
         if(urlParams.Cuisine) {
             const paramsToUrl = "&cuisine=" + urlParams.Cuisine.toLowerCase();
             default_URL = default_URL + paramsToUrl
